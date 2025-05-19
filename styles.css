@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Segoe UI', sans-serif;
+	background: #fffdf9;
+	color: #2e2e2e;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+  }
+  
+  header {
+	padding: 1rem 2rem;
+	background: linear-gradient(to right, #8b5e3c, #d6a75e);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+  }
+  
+  .logo img {
+	width: 48px;
+	height: 48px;
+  }
+  
+  main.download-section {
+	flex-grow: 1;
+	text-align: center;
+	padding: 3rem 1rem;
+  }
+  
+  main h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+  }
+  
+  main p {
+	margin-bottom: 2rem;
+	font-size: 1.1rem;
+  }
+  
+  .store-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 2rem;
+  }
+  
+  .store {
+	display: inline-block;
+  }
+
+  .store img {
+	height: 80px;
+  }
+  
+  .back-btn {
+	display: inline-block;
+	margin-top: 1rem;
+	font-size: 1rem;
+	color: #8b5e3c;
+	text-decoration: none;
+	font-weight: bold;
+  }
+  
+  .back-btn:hover {
+	text-decoration: underline;
+  }
+  
+  footer {
+	text-align: center;
+	padding: 1rem;
+	background: #2f2f2f;
+	color: white;
+	font-size: 0.9rem;
+  }
+  
+  /* Адаптив */
+  @media (max-width: 600px) {
+	.store {
+	  min-width: 100%;
+	}
+  
+	main h2 {
+	  font-size: 1.6rem;
+	}
+  
+	main p {
+	  font-size: 1rem;
+	}
+  }

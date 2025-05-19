@@ -1,0 +1,14 @@
+[
+	{
+		"relation": [
+			"delegate_permission/common.handle_all_urls"
+		],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "ru.yourperfectcup.app",
+			"sha256_cert_fingerprints": [
+				"E9:1D:CE:ED:AD:10:F7:26:80:9F:72:05:96:BA:2F:DA:5A:86:C5:E7:FD:77:F1:8A:40:BF:60:6B:AF:E5:1F:59"
+			]
+		}
+	}
+]
